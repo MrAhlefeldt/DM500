@@ -1,0 +1,58 @@
+\newcommand{\sigwidth}{\widthof{\footnotesize xDatum/Unterschrift\ Ausbildungsleiterx}}
+\newcommand{\signaturehere}[1]{%
+    \parbox[b][2.5cm][b]{\sigwidth}{%
+        \footnotesize%Everything in footnotesize
+        \centering% 
+        \rule[-3pt]{\linewidth}{0.4pt}\\[0ex]%
+        {#1}%
+    }
+}
+
+
+\begin{titlepage}
+	\centering
+
+    \textsc{\huge
+        \begin{center}
+           DM500 Take-home Exam
+           \\\Large Artificial Intelligence \\DM500 Studieintroduktion for Kunstig Inteligens og Datalogi efterår 23.\\
+           (N330077101-f-E23)
+        \end{center}
+        Group 28\\
+        \centering{    
+            \large Submission Date: December 19th 2023 }
+            \\
+        \centering{\large Supervisor:}
+        \\
+        \centering{\large Søren Sten Hansen}
+    }
+    
+%	\textsc{\Large Instructor: Name, $Mail$}\\[0.5 cm]
+    \rule{\linewidth}{0.2 mm} \\[0.2 cm]
+    \rule{\linewidth}{0.2 mm} \\[0.5 cm]
+    \emph{Submitted By:}
+    
+	\begin{minipage}{0.45\textwidth}
+		\begin{flushleft} \large
+			{Benjamin Benedict Ahlefeldt-Laurvig\\ \emph{\textit{beahl20@student.sdu.dk}}}\\
+			30/03-1999
+			\\\
+            
+	    \end{flushleft}
+	\end{minipage}~
+    \begin{minipage}{0.45\textwidth}
+        \begin{flushright}\large
+	   	{Emil Mygind Holm\\ \emph{\textit{emmyg21@student.sdu.dk}}}\\
+		  07/11-1999
+			\\\
+           
+		\end{flushright}
+	\end{minipage}\\
+	\begin{minipage}{0.45\textwidth}
+    	\begin{center} \large
+	       {Kristoffer Østergaard\\ \emph{\textit{krust23@student.sdu.dk}}}\\
+	       17/08-1999
+	       \\\
+        \end{center}
+	\end{minipage}
+\end{titlepage}
