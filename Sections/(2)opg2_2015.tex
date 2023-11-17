@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+
+\begin{document}
+
+%\section{Reeksamen 2015 - Februar}
+
+\begin{center}
+    \huge\bfseries Reeksamen 2015 - Februar \\
+\end{center}
+
+Opgave 2 (18\%)
+
+Hvilke af følgende udsagn er sande?
+\[
+\forall x\in\mathbb{N}:\exists y\in\mathbb{N}:x<y
+\]
+Sandt, da for alle $x$ i de naturlige tal, så kan der altid findes en $y$-værdi der er større end $x$.
+
+\[
+\forall x\in\mathbb{N}: \exists! y\in\mathbb{N}:x<y
+\]
+Falsk, da der eksisterer flere $y$-værdier der er større end $x$. Et andet argument for at den er falsk er fordi 1) er sandt, så vil 2) være falsk, da de modsiger hinanden med mængden af $y$-værdier.
+
+\[
+\exists y\in\mathbb{N}:\forall x\in\mathbb{N}:x<y
+\]
+Udsagnet siger at der eksisterer et naturligt tal $y$ hvor for alle naturlige tal $x$, $x$ er mindre end $y$, så udsagnet er sandt.
+\newline
+
+Angiv negationen af udsagn 1. fra spørgsmål a).
+Negerings-operatoren må ikke indgå i dit udsagn.
+\newline
+
+Vores udsagn fra 1) siger: ”For alle naturlige tal $x$, eksisterer der et naturligt tal $y$ sådan at $x$ er mindre end $y$.”, men vores negation af udsagnet ville så sige: ”Der eksisterer et naturligt tal $x$ sådan at for hvert naturligt tal $y$, $x$ er større eller lig med $y$.”
+
+\[
+\exists x\in\mathbb{N}:\forall y\in\mathbb{N}: x\geq y
+\]
+
+\end{document}
