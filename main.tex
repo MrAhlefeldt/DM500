@@ -1,0 +1,58 @@
+\documentclass[a4paper, 11pt]{article}
+
+%-------------------Packages-------------------%
+\usepackage[a4paper, left=25mm, right=25mm, top=30mm, bottom=30mm ]{geometry}
+\usepackage{mathtools} % Math 
+\setlength{\headheight}{13.59999pt}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm} % bold
+\usepackage{comment}
+\fontfamily{ptm} \selectfont
+\usepackage{wrapfig}
+\usepackage{caption} 
+\usepackage{subcaption} % subfigures 
+\usepackage{parskip} % remove paragraph indents
+\usepackage[utf8]{inputenc}
+\usepackage{subfiles} % subfiles
+\renewcommand{\baselinestretch}{1.5}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{float}
+\usepackage{footmisc} % Footnote package
+\usepackage[toc,page]{appendix} % create table of contents
+\usepackage{fancyhdr} % Header
+\usepackage{graphicx}
+
+
+
+
+%-----Layout-----%
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{3rd Semester Project, 2022}
+\rhead{Semester Project in Mobile Robotic Systems}
+\rfoot{Page \thepage{}} 
+
+%----------------%
+\linespread{1.5}
+
+\begin{document}
+
+
+\subfile{Sections/(0)frontpage.tex} % Forsiden
+\newpage
+
+\subfile{Sections/(1)opg1_2015} % Opgave 1 fra Reeksamen 2015
+\newpage
+
+\subfile{Sections/(2)opg2_2015} % Opgave 2 fra Reeksamen 2015
+\newpage
+
+\subfile{Sections/(3)opg3_2015} % Opgave 3 fra Reeksamen 2015
+\newpage
+
+\subfile{Sections/(4)opg1_2012} % Opgave 1 fra Reeksamen 2012
+\newpage
+
+
+\end{document}
